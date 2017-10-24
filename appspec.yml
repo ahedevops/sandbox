@@ -8,7 +8,7 @@ files:
   - source: /newer.html
     destination: /var/www/html/other/
   - source: scripts
-    destination: /var/www/html
+    destination: /var/www/html/scripts
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
