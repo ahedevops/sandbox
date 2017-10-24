@@ -5,6 +5,8 @@ files:
     destination: /var/www/html/
   - source: /testjs.html
     destination: /var/www/html/tix/
+  - source: /newer.html
+    destination: /var/www/html/other/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
