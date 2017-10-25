@@ -9,6 +9,10 @@ files:
     destination: /var/www/html/other/
   - source: scripts
     destination: /var/www/html/scripts
+  - source: XitJS
+    destination: /var/www/html/XitJS
+  - source: XitNET
+    destination: /var/www/html/XitNET
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
